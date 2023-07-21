@@ -1,0 +1,125 @@
+#main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    top: 20px;
+    /* left: 30px; */
+    height: 450px;
+    width: 500px;
+    /* border: 1px solid black; */
+    /* justify-content: space-between; */
+    background-color: rgb(239, 238, 238);
+}
+
+#inner1{
+    width: 96%;
+    height: 9%;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 11px;
+}
+.heading{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.para1{
+    margin:  9px auto;
+    height: auto;
+    width: 150px;
+    /* border: 1px solid black; */
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+
+
+
+/* #para1{
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: relative;
+    top: 3px;
+    border: 1px solid black;
+} */
+
+#inner2{
+    width: 96%;
+    height: 18%;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 30px;
+    /* border-end-end-radius: 8px; */
+    border-radius: 8px;
+    /* text-align: ; */
+
+
+}
+
+.display-container{
+    background-color: rgb(197, 194, 194);
+    color: blue;
+    font-size: 1.8rem;
+    
+}
+
+.display-container p{
+    display: inline-block;
+    /* border: 1px solid red; */
+    margin: 0px;
+    vertical-align: bottom;
+    
+}
+
+
+#inner3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 96%;
+    height: 56%;
+    /* border: 1px solid black ; */
+    position: relative;
+    top: 48px;
+
+
+}
+
+.common-in-opeatable{
+    /* display: inline-block; */
+    width: 24.4%;
+    height: 18%;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+.common-in-opeatable1{
+   width: 49.5%;
+   height: 18%;
+   /* border: 1px solid black; */
+   background-color: white;
+
+}
+
+.digit-design{
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 4px  auto;
+}
+
+.operator-design{
+    text-align: center;
+    font-size: 1.9rem;
+    margin: 6px auto;
+    /* background-color: rgb(255, 46, 46); */
+}
+
+.additional{
+    background-color: rgb(253, 45, 45);
+}
+
+.button:hover{
+    background-color: rgb(252, 252, 83);
+}
